@@ -44,6 +44,7 @@ Plug 'jiangmiao/auto-pairs'
 " fzf --------------------------------------------------------------------------------
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'https://github.com/junegunn/fzf.vim'
+
 Plug 'https://github.com/junegunn/goyo.vim'
 
 " tmux  -----------------------------------------------------------------------------

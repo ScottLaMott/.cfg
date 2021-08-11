@@ -34,11 +34,6 @@ map <leader>c  :close<cr>
 map <leader>bd :bdelete<cr>
 map <leader>s  :Startify<cr>
 
-"map <leader>j :wincmd j<cr>
-"map <leader>k :wincmd k<cr>
-"map <leader>h :wincmd h<cr>
-"map <leader>l :wincmd l<cr>
-
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
