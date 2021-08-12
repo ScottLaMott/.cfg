@@ -4,24 +4,30 @@
 * mit bare-Repository
 * mit dotbare-Plugin
 
-## Install
-
-  * Install
+## Installation
 ```
-    git clone https://github.com/kazhala/dotbare.git $HOME/.oh-my-zsh/custom/plugins/dotbare
+git clone https://github.com/kazhala/dotbare.git $HOME/.oh-my-zsh/custom/plugins/dotbare
 ```
 
-  * Plugin in .zshrc laden
+## Plugin in .zshrc laden
 ```
-    plugins=(... dotbare ... ...)
+plugins=(... dotbare ... ...)
 ```
+
+## Test in Docker
+```
+docker pull kazhala/dotbare:latest
+docker container run -it --rm --name dotbare kazhala/dotbare:latest
+```
+
+läuft nur mit sudo, FIX ME
 
 ## README.md und GitHub-Repo
-  * https://github.com/kazhala/dotbare#readme
+* https://github.com/kazhala/dotbare#readme
 
 ## Wiki
 
-  * https://github.com/kazhala/dotbare/wiki
+* https://github.com/kazhala/dotbare/wiki
 
 
 ## interessante Links
