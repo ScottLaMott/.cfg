@@ -66,7 +66,7 @@ _dotbare_completion_cmd
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # make capslock equal escape
-#setxkbmap -option caps:escape
+setxkbmap -option caps:escape
 
 # manage dotfiles
 #alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
