@@ -26,10 +26,6 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 
-# source aliases
-source ~/.local/plugins/slm-aliases.plugin.zsh
-source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
-source ~/.local/plugins/slm-fzf.plugin.zsh
 #source ~/.local/plugins/slm-powerline.plugin.zsh
 
 # You may need to manually set your language environment
@@ -58,9 +54,8 @@ zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit
 compinit
-
-_dotbare_completion_cmd
 # End of lines added by compinstall
+_dotbare_completion_cmd
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -68,31 +63,16 @@ _dotbare_completion_cmd
 # make capslock equal escape
 setxkbmap -option caps:escape
 
-# manage dotfiles
-#alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-#config config --local status.showUntrackedFiles no
-
 export DISABLE_AUTO_TITLE='true'
 
 # init fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/christoph/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/christoph/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/christoph/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/christoph/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+source ~/.local/plugins/slm-aliases.plugin.zsh
+source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
+source ~/.local/plugins/slm-fzf.plugin.zsh
+#source ~/.local/plugins/slm-powerline.plugin.zsh
 
