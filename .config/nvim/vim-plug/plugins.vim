@@ -14,19 +14,19 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 
-" Specify a directory for plugins
+""" Specify a directory for plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
-" vim-airline ----------------------------------------------------
+""" vim-airline ----------------------------------------------------
 Plug 'https://github.com/vim-airline/vim-airline.git'
 Plug 'https://github.com/vim-airline/vim-airline-themes.git'
 
-" colorschemes -----------------------------------------------------------------------
+""" colorschemes -----------------------------------------------------------------------
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 "Plug 'https://github.com/rainglow/vim'
 "Plug 'https://github.com/chriskempson/base16-vim'
 
-" .netrw -----------------------------------------------------------------------------
+""" .netrw -----------------------------------------------------------------------------
 Plug 'https://github.com/tpope/vim-vinegar.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 
@@ -38,22 +38,23 @@ Plug 'https://github.com/tpope/vim-fugitive.git'
 " gdb --------------------------------------------------------------------------------
 "Plug 'https://github.com/sakhnik/nvim-gdb.git' , { 'do': ':!./install.sh' }
 
-" automatic pairs
+""" automatic pairs
 Plug 'jiangmiao/auto-pairs'
 
-" fzf --------------------------------------------------------------------------------
+""" fzf --------------------------------------------------------------------------------
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'https://github.com/junegunn/fzf.vim'
 
-Plug 'https://github.com/junegunn/goyo.vim'
-
-" tmux  -----------------------------------------------------------------------------
+""" tmux  -----------------------------------------------------------------------------
 Plug 'christoomey/vim-tmux-navigator'
 
-" vimwiki  -----------------------------------------------------------------------------
+""" vimwiki  -----------------------------------------------------------------------------
 Plug 'vimwiki/vimwiki'
 
-" startify -----------------------------------------------------------------------------
+""" startify -----------------------------------------------------------------------------
 Plug 'mhinz/vim-startify'
+
+""" verschiedene -------------------------------------------------------------------------
+Plug 'https://github.com/junegunn/goyo.vim'
 
 call plug#end()
