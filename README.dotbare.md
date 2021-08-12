@@ -20,7 +20,7 @@ docker pull kazhala/dotbare:latest
 docker container run -it --rm --name dotbare kazhala/dotbare:latest
 ```
 
-läuft nur mit sudo, FIX ME
+FIX ME läuft nur mit sudo
 
 ## README.md und GitHub-Repo
 * https://github.com/kazhala/dotbare#readme
