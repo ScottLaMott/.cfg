@@ -20,6 +20,11 @@ docker pull kazhala/dotbare:latest
 docker container run -it --rm --name dotbare kazhala/dotbare:latest
 ```
 
+Clonen des .cfg-Repository von GitHub
+```
+git clone https://github.com/ScottLaMott/.cfg.git
+```
+
 FIX ME läuft nur mit sudo
 
 ## README.md und GitHub-Repo
