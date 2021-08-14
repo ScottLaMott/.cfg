@@ -27,7 +27,8 @@ let g:deoplete#enable_at_startup=1
 let g:python3_host_prog='/usr/bin/python3'
 let g:loaded_python3_provider=1
 
-""" colorscheme +++ jellybeans PaperColor abstract
-colorscheme PaperColor
+""" colorscheme +++ jellybeans PaperColor abstract focuspoint
+set background=dark
+colorscheme focuspoint
 
 runtime! debian.vim

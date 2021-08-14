@@ -9,9 +9,10 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-            \ { 'z': '~/.zshrc' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 't': '~/.tmux.conf' },
+            \ { 'z': '~/.zshrc' },
+            \ { 'o': '~/.oh-my-zsh/oh-my-zsh.sh' },
             \ { 'w': '~/vimwiki/index.wiki' },
             \ '~/ws',
             \ ]

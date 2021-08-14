@@ -14,7 +14,7 @@ git clone https://github.com/kazhala/dotbare.git $HOME/.oh-my-zsh/custom/plugins
 plugins=(... dotbare ... ...)
 ```
 
-## Test in Docker
+## Testumgebung in DockerContainer
 ```
 docker pull kazhala/dotbare:latest
 docker container run -it --rm --name dotbare kazhala/dotbare:latest
