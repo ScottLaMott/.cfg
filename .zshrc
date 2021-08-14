@@ -41,27 +41,19 @@ fi
 # ssh ???
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# we like vi
+setopt vi
 bindkey -v
+
+# make capslock equal escape
+setxkbmap -option caps:escape
 
 # begin of line in zsh history
 zle-history-line-set () { zle vi-beginning-of-line; }
 zle -N zle-history-line-set
 
-# End of lines configured by zsh-newuser-install
-
-# The following lines were added by compinstall
-zstyle :compinstall filename '$HOME/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-_dotbare_completion_cmd
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# make capslock equal escape
-setxkbmap -option caps:escape
 
 export DISABLE_AUTO_TITLE='true'
 
@@ -70,8 +62,18 @@ export DISABLE_AUTO_TITLE='true'
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
 
+# eigene plugins
 source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
+# plugins aus dem netz
 source ~/.local/plugins/slm-fzf.plugin.zsh
+source ~/.local/plugins/dotbare.plugin.zsh
 #source ~/.local/plugins/slm-powerline.plugin.zsh
+
+# The following lines were added by compinstall
+zstyle :compinstall filename '$HOME/.zshrc'
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+_dotbare_completion_cmd
 

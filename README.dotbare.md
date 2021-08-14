@@ -1,17 +1,29 @@
 # Dotfile
 
 ## Plan
-- mit bare-Repository
-- mit dotbare-Plugin
+- mit Bare-Repository
+- mit dotbare-Plugin, Workingtree des Repository ist das Homeverzeichnis des Benutzer
+
+### Vorteil
+Es wird nicht mit SymLinks gearbeitet. Symlinks machen die Verwaltung unübersichtlich.
 
 ## Installation
+Plugin von GitHub laden
 ```
-git clone https://github.com/kazhala/dotbare.git $HOME/.oh-my-zsh/custom/plugins/dotbare
+git clone https://github.com/kazhala/dotbare.git
+```
+oder
+```
+wget https://github.com/kazhala/dotbare/blob/master/dotbare.plugin.zsh
 ```
 
-## Plugin in .zshrc laden
+in lokales Verzeichnis kopieren (ohne _.oh-my-zshell_)
 ```
-plugins=(... dotbare ... ...)
+cp <path-to-plugin>/dotbare.plugin.zsh  $HOME/.local/plugins/dotbare.plugin.zsh
+```
+in _.zshrc_ Plugin vor ZSH-Completion-Code sourcen
+```
+source ~/.local/plugins/dotbare.plugin.zsh
 ```
 
 ## Testumgebung in DockerContainer
