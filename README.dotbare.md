@@ -1,8 +1,8 @@
-# Dotfile-Verzeichns
+# Dotfile
 
 ## Plan
-* mit bare-Repository
-* mit dotbare-Plugin
+- mit bare-Repository
+- mit dotbare-Plugin
 
 ## Installation
 ```
@@ -28,14 +28,14 @@ dotbare finit -u https://github.com/ScottLaMott/.cfg.git
 FIX ME läuft nur mit sudo
 
 ## README.md und GitHub-Repo
-* https://github.com/kazhala/dotbare#readme
+- https://github.com/kazhala/dotbare#readme
 
 ## Wiki
 
-* https://github.com/kazhala/dotbare/wiki
+- https://github.com/kazhala/dotbare/wiki
 
 
 ## interessante Links
 
-* https://www.atlassian.com/git/tutorials/dotfiles
-* https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained
+- https://www.atlassian.com/git/tutorials/dotfiles
+- https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained
