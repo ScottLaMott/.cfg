@@ -70,7 +70,6 @@ export DISABLE_AUTO_TITLE='true'
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
 
-
 source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
 source ~/.local/plugins/slm-fzf.plugin.zsh
