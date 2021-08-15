@@ -18,7 +18,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(debian dotbare git tmuxinator tmux)
+plugins=(dotbare debian git tmuxinator tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -45,6 +45,13 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 setopt vi
 bindkey -v
 
+# Use vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -v '^?' backward-delete-char
+
 # make capslock equal escape
 setxkbmap -option caps:escape
 
@@ -67,7 +74,13 @@ source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
 # plugins aus dem netz
 source ~/.local/plugins/slm-fzf.plugin.zsh
-source ~/.local/plugins/dotbare.plugin.zsh
+
+
+# ????????????????????????????????????????????????????????????????????????????????????
+#fpath=(~/.local/plugins $fpath)
+#source ~/.local/plugins/dotbare.plugin.zsh
+#source ~/.local/plugins/dotbare/dotbare.plugin.zsh
+
 #source ~/.local/plugins/slm-powerline.plugin.zsh
 
 # The following lines were added by compinstall
