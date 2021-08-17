@@ -1,6 +1,7 @@
 
 let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'p': '~/.config/nvim/vim-plug/plugins.vim' },
             \ { 't': '~/.tmux.conf' },
             \ { 'z': '~/.zshrc' },
             \ { 'o': '~/.oh-my-zsh/oh-my-zsh.sh' },
