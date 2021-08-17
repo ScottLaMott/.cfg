@@ -23,15 +23,10 @@ Plug 'https://github.com/vim-airline/vim-airline-themes.git'
 
 """ colorschemes -----------------------------------------------------------------------
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
-"Plug 'https://github.com/rainglow/vim'
-"Plug 'https://github.com/chriskempson/base16-vim'
 
 """ .netrw -----------------------------------------------------------------------------
 Plug 'https://github.com/tpope/vim-vinegar.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
-
-" gdb --------------------------------------------------------------------------------
-"Plug 'https://github.com/sakhnik/nvim-gdb.git' , { 'do': ':!./install.sh' }
 
 """ automatic pairs
 Plug 'jiangmiao/auto-pairs'
