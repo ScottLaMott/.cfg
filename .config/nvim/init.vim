@@ -28,6 +28,6 @@ let g:loaded_python3_provider=1
 
 """ colorscheme +++ jellybeans PaperColor abstract focuspoint
 set background=dark
-colorscheme focuspoint
+colorscheme afterglow
 
 runtime! debian.vim
