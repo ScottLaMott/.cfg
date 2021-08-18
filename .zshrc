@@ -68,12 +68,11 @@ export DISABLE_AUTO_TITLE='true'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
+source ~/.local/plugins/slm-fzf.plugin.zsh            # Beispiele aus dem Netz
 
 # eigene plugins
 source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
-# plugins aus dem netz
-source ~/.local/plugins/slm-fzf.plugin.zsh
 
 #source ~/.local/plugins/slm-powerline.plugin.zsh
 
