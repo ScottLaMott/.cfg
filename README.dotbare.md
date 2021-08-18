@@ -16,7 +16,7 @@ oder
 ```
 wget https://github.com/kazhala/dotbare/blob/master/dotbare.plugin.zsh
 ```
-
+?????????? noch nicht fertig
 in lokales Verzeichnis kopieren (ohne _.oh-my-zshell_)
 ```
 cp <path-to-plugin>/dotbare.plugin.zsh  $HOME/.local/plugins/dotbare.plugin.zsh
