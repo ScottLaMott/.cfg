@@ -23,7 +23,6 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 
 """ python support
-let g:deoplete#enable_at_startup=1
 let g:python3_host_prog='/usr/bin/python3'
 let g:loaded_python3_provider=1
 
