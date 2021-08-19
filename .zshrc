@@ -55,8 +55,11 @@ bindkey -v '^?' backward-delete-char
 # make capslock equal escape
 setxkbmap -option caps:escape
 
-# begin of line in zsh history
-zle-history-line-set () { zle vi-beginning-of-line; }
+# always begin of line and command mode in zle
+zle-history-line-set () {
+  zle vi-beginning-of-line
+  zle vi-cmd-mode
+}
 zle -N zle-history-line-set
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
