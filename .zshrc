@@ -66,8 +66,8 @@ export DISABLE_AUTO_TITLE='true'
 
 # init fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /usr/share/doc/fzf/examples/key-bindings.zsh
-source /usr/share/doc/fzf/examples/completion.zsh
+source ~/.local/plugins/key-bindings.zsh
+source ~/.local/plugins/completion.zsh
 source ~/.local/plugins/slm-fzf.plugin.zsh            # Beispiele aus dem Netz
 
 # eigene plugins
