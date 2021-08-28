@@ -70,6 +70,10 @@ source ~/.local/plugins/key-bindings.zsh
 source ~/.local/plugins/completion.zsh
 source ~/.local/plugins/slm-fzf.plugin.zsh            # Beispiele aus dem Netz
 
+# tmux keybindings, später in .tmux.conf
+tmux bind-key -n M-n next-window
+tmux bind-key -n M-p previous-window
+
 # eigene plugins
 source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
