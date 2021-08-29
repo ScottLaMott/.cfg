@@ -183,4 +183,4 @@ bar {
 
 ### slm
 bindsym $mod+z exec i3lock
-
+exec --no-startup-id feh --bg-fill ~/ws/slm-art/slm-art/slm-gold-com.png
