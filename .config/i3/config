@@ -181,6 +181,8 @@ bar {
         status_command i3status
 }
 
-### slm
+# slm ###
+#
 bindsym $mod+z exec i3lock
+# set background
 exec --no-startup-id feh --bg-fill ~/ws/slm-art/slm-art/slm-gold-com.png
