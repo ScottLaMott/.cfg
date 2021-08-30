@@ -2,7 +2,8 @@
 let g:startify_bookmarks = [
             \ { 'z': '~/.zshrc' },
             \ { 't': '~/.tmux.conf' },
-            \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'i': '~/.config/i3/config' },
+            \ { 'n': '~/.config/nvim/init.vim' },
             \ { 'p': '~/.config/nvim/vim-plug/plugins.vim' },
             \ { 'o': '~/.oh-my-zsh/oh-my-zsh.sh' },
             \ { 'w': '~/vimwiki/index.wiki' },
