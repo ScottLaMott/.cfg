@@ -181,11 +181,22 @@ bar {
         status_command i3status
 }
 
+
 #
 ### slm ##################################################################
 #
 
 # lock screen
 bindsym $mod+z exec i3lock
+
 # set background
-exec --no-startup-id feh --bg-fill ~/ws/slm-art/slm-art/slm-gold-com.png
+#exec_always --no-startup-id feh --bg-scale ~/Downloads/green-gradient-ibws2yruf022opb9.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Downloads/pexels-carlos-oliva-3586966.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Downloads/david-kovalenko-G85VuTpw6jg-unsplash.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Downloads/scott-rodgerson-PteeDvACFak-unsplash.jpg
+#
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/thailand.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/wasserfall.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/world.jpeg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/frosch.jpeg
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/himmel.jpg
