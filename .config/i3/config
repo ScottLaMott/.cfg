@@ -67,10 +67,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+odiaeresis move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -108,7 +108,7 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "main"
 set $ws2 "firefox"
-set $ws3 "3"
+set $ws3 "thunderbird"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -192,21 +192,21 @@ bindsym $mod+z exec i3lock
 
 # set background
 #exec_always --no-startup-id feh --bg-scale ~/Downloads/green-gradient-ibws2yruf022opb9.jpg
-exec_always --no-startup-id feh --bg-scale ~/Downloads/pexels-carlos-oliva-3586966.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Downloads/pexels-carlos-oliva-3586966.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Downloads/david-kovalenko-G85VuTpw6jg-unsplash.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Downloads/scott-rodgerson-PteeDvACFak-unsplash.jpg
 #
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/thailand.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/wasserfall.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/world.jpeg
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/frosch.jpeg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/frosch.jpeg
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/himmel.jpg
 #
 # i3-gaps
 #
 # You can also use any non-zero value if you'd like to have a border
 for_window [class=".*"] border pixel 2
-gaps inner 7
-gaps outer 3
+gaps inner 5
+gaps outer 0
 smart_gaps on
 
