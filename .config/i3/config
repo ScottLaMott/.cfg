@@ -186,22 +186,13 @@ bar {
 bindsym $mod+z exec i3lock
 
 # set background
-#exec_always --no-startup-id feh --bg-scale ~/Downloads/green-gradient-ibws2yruf022opb9.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Downloads/pexels-carlos-oliva-3586966.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Downloads/david-kovalenko-G85VuTpw6jg-unsplash.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Downloads/scott-rodgerson-PteeDvACFak-unsplash.jpg
-#
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/thailand.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/wasserfall.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/world.jpeg
-exec_always --no-startup-id feh --bg-scale ~/Pictures/frosch.jpeg
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/himmel.jpg
+exec_always --no-startup-id feh --bg-scale ~/ws/wallpaper/slm-at-becks.png
 #
 # i3-gaps
 #
 # You can also use any non-zero value if you'd like to have a border
 for_window [class=".*"] border pixel 2
-gaps inner 3
+gaps inner 5
 gaps outer 0
 smart_gaps on
 
