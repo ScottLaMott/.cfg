@@ -186,7 +186,8 @@ bar {
 bindsym $mod+z exec i3lock
 
 # set background
-exec_always --no-startup-id feh --bg-scale ~/ws/wallpaper/slm-at-becks.png
+#exec_always --no-startup-id feh --bg-scale ~/ws/wallpaper/slm-at-becks.png
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/backgrounds/gruen-2.png
 #
 # i3-gaps
 #
