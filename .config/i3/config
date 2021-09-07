@@ -175,7 +175,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   position top
-  status_command i3status
+  status_command i3blocks
 }
 
 #
@@ -186,8 +186,8 @@ bar {
 bindsym $mod+z exec i3lock
 
 # set background
-#exec_always --no-startup-id feh --bg-scale ~/ws/wallpaper/slm-at-becks.png
-exec_always --no-startup-id feh --bg-scale ~/.config/i3/backgrounds/gruen-2.png
+exec_always --no-startup-id feh --bg-scale ~/ws/wallpapers/dt/0181.jpg
+#exec_always --no-startup-id feh --bg-scale  ~/Pictures/zitronen.jpg
 #
 # i3-gaps
 #
