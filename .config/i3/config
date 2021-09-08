@@ -108,8 +108,8 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:main"
 set $ws2 "2:firefox"
-set $ws3 "3:thunderbird"
-set $ws4 "4:"
+set $ws3 "3:virt-manager"
+set $ws4 "4:thunderbird"
 set $ws5 "5:"
 set $ws6 "6:"
 set $ws7 "7:"
