@@ -18,7 +18,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(dotbare debian git tmuxinator tmux)
+plugins=(git tmuxinator tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -70,9 +70,12 @@ source ~/.local/plugins/key-bindings.zsh
 source ~/.local/plugins/completion.zsh
 source ~/.local/plugins/slm-fzf.plugin.zsh            # Beispiele aus dem Netz
 
+test -d ~/.dotbare && source ~/.dotbare/dotbare.plugin.zsh
+
 # eigene plugins
 source ~/.local/plugins/slm-aliases.plugin.zsh
 source ~/.local/plugins/slm-colored-man-pages.plugin.zsh
+
 
 #source ~/.local/plugins/slm-powerline.plugin.zsh
 

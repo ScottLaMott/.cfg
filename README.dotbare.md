@@ -10,11 +10,7 @@ Es wird nicht mit SymLinks gearbeitet. Symlinks machen die Verwaltung unübersic
 ## Installation
 Plugin von GitHub laden
 ```
-git clone https://github.com/kazhala/dotbare.git
-```
-oder
-```
-wget https://github.com/kazhala/dotbare/blob/master/dotbare.plugin.zsh
+git clone https://github.com/kazhala/dotbare.git $HOME/.dotbare
 ```
 ?????????? noch nicht fertig
 in lokales Verzeichnis kopieren (ohne _.oh-my-zshell_)
@@ -22,6 +18,11 @@ in lokales Verzeichnis kopieren (ohne _.oh-my-zshell_)
 cp <path-to-plugin>/dotbare.plugin.zsh  $HOME/.local/plugins/dotbare.plugin.zsh
 ```
 in _.zshrc_ Plugin vor ZSH-Completion-Code sourcen
+```
+source ~/.local/plugins/dotbare.plugin.zsh
+```
+
+in _slm-alias_ Plugin alias erstellen
 ```
 source ~/.local/plugins/dotbare.plugin.zsh
 ```

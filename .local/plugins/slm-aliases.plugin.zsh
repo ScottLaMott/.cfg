@@ -40,8 +40,8 @@ alias t='python2 ~/ws/git/t/t.py --task-dir ~/tasks --list tasks'
 alias tl='python2 ~/ws/git/t/t.py --task-dir ~/tasks --list tasks-lisa'
 alias tg='python2 ~/ws/git/t/t.py --task-dir ~/tasks --list tasks-godwin'
 
+# dotbare
+alias dotbare='.dotbare/dotbare'
+
 # git, falsch neu ergooglen
 #alias gitlog 'log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit h
-
-# dotbare
-alias dotbare=$HOME/.dotbare/dotbare
