@@ -70,6 +70,7 @@ source ~/.local/plugins/key-bindings.zsh
 source ~/.local/plugins/completion.zsh
 source ~/.local/plugins/slm-fzf.plugin.zsh            # Beispiele aus dem Netz
 
+# dotbare
 test -d ~/.dotbare && source ~/.dotbare/dotbare.plugin.zsh
 
 # eigene plugins
