@@ -1,45 +1,35 @@
 # Dotfile
 
-## Plan
+##### Plan
 - mit Bare-Repository
 - mit dotbare-Plugin, Workingtree des Repository ist das Homeverzeichnis des Benutzer
 
-### Vorteil
+##### Vorteil
 Es wird nicht mit SymLinks gearbeitet. Symlinks machen die Verwaltung unübersichtlich.
 
-## Installation
-Plugin von GitHub laden
+##### Installation
+Plugin von GitHub in $HOME/.dotbare clonen
 ```
-git clone https://github.com/kazhala/dotbare.git $HOME/.dotbare
+$ git clone https://github.com/kazhala/dotbare.git $HOME/.dotbare
 ```
-?????????? noch nicht fertig
-in lokales Verzeichnis kopieren (ohne _.oh-my-zshell_)
+in _slm-aliases.plugin.zsh_ alias erstellen
 ```
-cp <path-to-plugin>/dotbare.plugin.zsh  $HOME/.local/plugins/dotbare.plugin.zsh
+$ alias dotbare='.dotbare/dotbare'
 ```
 in _.zshrc_ Plugin vor ZSH-Completion-Code sourcen
 ```
-source ~/.local/plugins/dotbare.plugin.zsh
+$ test -d ~/.dotbare && source ~/.dotbare/dotbare.plugin.zsh
 ```
-
-in _slm-alias_ Plugin alias erstellen
-```
-source ~/.local/plugins/dotbare.plugin.zsh
-```
-
 ## Testumgebung in DockerContainer
 ```
-docker pull kazhala/dotbare:latest
-docker container run -it --rm --name dotbare kazhala/dotbare:latest
+$ docker pull kazhala/dotbare:latest
+$ docker container run -it --rm --name dotbare kazhala/dotbare:latest
 ```
 
 Clonen des .cfg-Repository von GitHub
 ```
-dotbare finit -u https://github.com/ScottLaMott/.cfg.git
+$ dotbare finit -u https://github.com/ScottLaMott/.cfg.git
 ```
-
-FIX ME läuft nur mit sudo
-
 ## README.md und GitHub-Repo
 - https://github.com/kazhala/dotbare#readme
 
