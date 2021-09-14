@@ -1,0 +1,2 @@
+# .cfg
+Repository für dotbare
