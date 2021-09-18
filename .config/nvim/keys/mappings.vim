@@ -49,3 +49,8 @@ map <F6> :n<CR>
 " für :terminal-mode, exit terminal-mode
 tnoremap <Esc><Esc> <C-\><C-n>
 
+map <leader>ff  :Telescope find_files<cr>
+map <leader>fg  :Telescope live_grep<cr>
+map <leader>fb  :Telescope buffers<cr>
+map <leader>fc  :Telescope colorscheme<cr>
+map <leader>fh  :Telescope help_tags<cr>
