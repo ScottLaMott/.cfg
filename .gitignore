@@ -1,2 +1,5 @@
 # bare repo für dotfiles
 .cfg
+
+# nicht nötig
+.local/share/nvim/plugged
