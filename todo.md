@@ -13,6 +13,7 @@
 
 
 ### stella
+- partition layout
 - prompt verbessern
 - appimage 0.6.0 suchen
 - devicons in telescope
