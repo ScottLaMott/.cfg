@@ -8,7 +8,7 @@
 # fd in telescope auf versteckte (hidden) dateien -- erledigt mit
 - siehe .config/nvim/general/telescope.lua
 
-# prompt verbessern
+# prompt verbessern, liegt an .oh-my-zsh
 # appimage 0.6.0 suchen
 # devicons in telescope
 # dunkeles terminal, dunkler rahmen
