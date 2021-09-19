@@ -2,7 +2,7 @@
 
 ##### Plan
 - mit Bare-Repository
-- mit dotbare-Plugin, Workingtree des Repository ist das Homeverzeichnis des Benutzer
+- mit dotbare-Plugin, Workingtree des Repository ist das Homeverzeichnis des Benutzer. Index ist in $HOME/.cfg.
 
 ##### Vorteil
 Es wird nicht mit SymLinks gearbeitet. Symlinks machen die Verwaltung unübersichtlich.
