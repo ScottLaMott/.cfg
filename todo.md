@@ -4,11 +4,9 @@
 - devicons in telescope
 - dunkeles terminal, dunkler rahmen
 - telescope sortierreihenfolge
-- i3 background
 - i3gaps suchen
 - i3blocks kleine buchstaben ins menuleiste
 - f5 f6 für helligkeit
-- docker installation prüfen
 
 ### becks
 - startify session file gitten
@@ -22,3 +20,7 @@
   - siehe .config/nvim/general/telescope.lua
 - appimage 0.6.0 zum download suchen
   -  https://github.com/neovim/neovim/releases/tag/nightly
+- i3 background, wallpaper ins _~/ws/wallpapers_
+- docker installation prüfen
+  - permission problem auf socket, hat sich gelöst. vielleicht user in docker-group
+  - Installation Mint https://linuxhint.com/install_docker_linux_mint/
