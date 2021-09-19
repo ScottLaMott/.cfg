@@ -1,3 +1,4 @@
+# TODO-List
 ### stella
 - prompt verbessern
 - devicons in telescope
@@ -20,4 +21,3 @@
   - siehe .config/nvim/general/telescope.lua
 - appimage 0.6.0 zum download suchen
   -  https://github.com/neovim/neovim/releases/tag/nightly
-

@@ -4,7 +4,7 @@
 "
 " loading plugins
 "
-" slm@schoco-company.com
+" slm@choco-company.com
 "
 " automatisches installieren von vim-plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
