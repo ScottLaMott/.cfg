@@ -25,9 +25,6 @@ alias config='/usr/bin/git --git-dir=/home/christoph/.cfg/ --work-tree=/home/chr
 # ansible
 alias ansp='ansible -m ping'
 
-# ag silversearcher
-#alias fd='fdfind'
-
 # batcat
 alias bat='batcat'
 
@@ -43,7 +40,7 @@ alias tg='python2 ~/ws/git/t/t.py --task-dir ~/tasks --list tasks-godwin'
 # dotbare
 alias dotbare='$HOME/.dotbare/dotbare'
 
-# fd-find
+# silversearcher-ag
 alias fd='fdfind --hidden'
 
 
