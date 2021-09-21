@@ -14,6 +14,7 @@
 
 ### becks
 - startify session file gitten
+- fonts verbessern
 ### erledigt
 - git enterprise freischalten
 - git pushen in github
