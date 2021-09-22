@@ -4,14 +4,15 @@ enterprise
 -
 
 - slm-industries.virt als domainname ?
-- werkstatt -> factory
+- ansible-playbooks für docker-container erstellen
 
 stella
 -
 
-- devicons in telescope
 - telescope
   - sortierreihenfolge
+  - devicons
+  - checkhealth telescope failed
 - i3gaps suchen
 - i3blocks kleine buchstaben ins menuleiste
 - f5 f6 für helligkeit
@@ -26,11 +27,11 @@ becks
 erledigt
 -
 
-- git enterprise freischalten
-- git pushen in github
-```
- git push git@github.com:ScottLaMott/.cfg.git
-```
+- dotbare-repo in github pushen
+  ```
+  dotbare push git@github.com:ScottLaMott/.cfg.git
+  ```
+
 - fd in telescope auf versteckte (hidden) dateien
   - siehe .config/nvim/general/telescope.lua
 - appimage 0.6.0 zum download suchen
@@ -39,7 +40,7 @@ erledigt
 - docker installation prüfen
   - permission problem auf socket, hat sich gelöst. vielleicht user in docker-group
   - Installation Mint https://linuxhint.com/install_docker_linux_mint/
-- slm-industries als companyname
+- slm-industries als company-name
 - prompt verbessern
   - erstmal oh-my-zsh weiterbenutzen
 - dunkler terminal-background
