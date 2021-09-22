@@ -1,3 +1,3 @@
 # .cfg
 Repository für dotbare
-link auf readme.dotbare.md
+[link auf] (readme.dotbare.md)
