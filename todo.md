@@ -1,21 +1,31 @@
-# TODO-List
-### enterprise
+TODO-List
+=
+enterprise
+-
+
 - slm-industries.virt als domainname ?
 - werkstatt -> factory
 
-### stella
-- prompt verbessern
+stella
+-
+
 - devicons in telescope
-- dunkeles terminal, dunkler rahmen
-- telescope sortierreihenfolge
+- telescope
+  - sortierreihenfolge
 - i3gaps suchen
 - i3blocks kleine buchstaben ins menuleiste
 - f5 f6 für helligkeit
+- dunkler window-rahmen
 
-### becks
+becks
+-
+
 - startify session file gitten
 - fonts verbessern
-### erledigt
+
+erledigt
+-
+
 - git enterprise freischalten
 - git pushen in github
 ```
@@ -30,3 +40,7 @@
   - permission problem auf socket, hat sich gelöst. vielleicht user in docker-group
   - Installation Mint https://linuxhint.com/install_docker_linux_mint/
 - slm-industries als companyname
+- prompt verbessern
+  - erstmal oh-my-zsh weiterbenutzen
+- dunkler terminal-background
+  - in terminal settings eingestellt
