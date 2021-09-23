@@ -21,7 +21,7 @@ in _.zshrc_ Plugin vor ZSH-Completion-Code sourcen
 ```
 $ test -d ~/.dotbare && source ~/.dotbare/dotbare.plugin.zsh
 ```
-### Testumgebung in DockerContainer
+### Testumgebung (DockerContainer)
 ```
 $ docker pull kazhala/dotbare:latest
 $ docker container run -it --rm --name dotbare kazhala/dotbare:latest
