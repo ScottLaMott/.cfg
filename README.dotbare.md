@@ -39,7 +39,7 @@ $ dotbare finit -u https://github.com/ScottLaMott/.cfg.git
 - https://github.com/kazhala/dotbare/wiki
 
 
-### interessante Links
+### Links
 
 - https://www.atlassian.com/git/tutorials/dotfiles
 - https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained
