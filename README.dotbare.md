@@ -1,13 +1,14 @@
-# Dotfile
+## Dotfile
 
-##### Plan
+##### Idee
 - mit Bare-Repository
 - mit dotbare-Plugin, Workingtree des Repository ist das Homeverzeichnis des Benutzer. Index ist in $HOME/.cfg.
 
 ##### Vorteil
-Es wird nicht mit SymLinks gearbeitet. Symlinks machen die Verwaltung unübersichtlich.
+- keine symlinks.
+- symlinks sind unübersichtlich.
 
-##### Installation
+### Installation
 Plugin von GitHub in $HOME/.dotbare clonen
 ```
 $ git clone https://github.com/kazhala/dotbare.git $HOME/.dotbare
@@ -20,7 +21,7 @@ in _.zshrc_ Plugin vor ZSH-Completion-Code sourcen
 ```
 $ test -d ~/.dotbare && source ~/.dotbare/dotbare.plugin.zsh
 ```
-## Testumgebung in DockerContainer
+### Testumgebung in DockerContainer
 ```
 $ docker pull kazhala/dotbare:latest
 $ docker container run -it --rm --name dotbare kazhala/dotbare:latest
@@ -30,15 +31,15 @@ Clonen des .cfg-Repository von GitHub
 ```
 $ dotbare finit -u https://github.com/ScottLaMott/.cfg.git
 ```
-## README.md und GitHub-Repo
+### README.md und GitHub-Repo
 - https://github.com/kazhala/dotbare#readme
 
-## Wiki
+### Wiki
 
 - https://github.com/kazhala/dotbare/wiki
 
 
-## interessante Links
+### interessante Links
 
 - https://www.atlassian.com/git/tutorials/dotfiles
 - https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained
