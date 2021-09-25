@@ -20,4 +20,4 @@ let g:startify_session_dir = '~/.config/nvim/session'
 
 let g:startify_custom_header =
     \ startify#pad(split(system('figlet slm-industries . .;
-      \ echo "the home of virtual spacecrafts ...\npowered by neovim, lunarvim, telescope ..."'), '\n'))
+      \ echo "the home of virtual spacecrafts ...\npowered by lunarvim, neovim, telescope ..."'), '\n'))
