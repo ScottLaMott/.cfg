@@ -31,7 +31,8 @@ let g:loaded_python3_provider=1
 
 """ colorscheme +++ jellybeans PaperColor abstract focuspoint
 set background=dark
-colorscheme afterglow
+"colorscheme afterglow
+colorscheme focuspoint
 "colorscheme OceanicNextLight
 "colorscheme onehalflight
 
