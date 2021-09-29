@@ -1,27 +1,15 @@
--- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
-
 -- slm-industries telescope config
--- 
--- lvim.builtin.telescope.defaults.layout_config.prompt_position = "top"
--- lvim.builtin.telescope.defaults.sorting_strategy = "ascending"
-
-require("telescope").setup{defaults={layout_config={prompt_position="bottom"}}}
--- require("telescope").setup{ defaults = { layout_config={prompt_position="top"} } }
-
-
--- prompt on top
--- require("telescope").setup{
-  -- defaults = {
-    -- layout_config={prompt_position="top"}
-  -- }
--- }
+-- layout
+require("telescope").setup { defaults = { layout_config = { prompt_position = "top" } } }
+-- require("telescope").setup{ defaults = { layout_config = { prompt_position = "bottom" } } }
+-- sorting 
+require("telescope").setup { defaults = { sorting_strategy = { "ascending"  } } }
+-- require("telescope").setup{ defaults = { sorting_strategy = { "descending"  } } }
 
 -- search hidden folder
 require("telescope").setup { pickers = { find_files = { hidden = true } } }
 
-lvim.builtin.telescope.defaults.layout_config.prompt_position = "top"
-lvim.builtin.telescope.defaults.sorting_strategy = "ascending"
--- 
+--
 -- end slm-industries telescope config
 
 -- general
@@ -119,14 +107,14 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- Additional Plugins
 lvim.plugins = {
-     {"folke/tokyonight.nvim"}, 
+     {"folke/tokyonight.nvim"},
      {"ray-x/lsp_signature.nvim",
          config = function() require"lsp_signature".on_attach() end,
          event = "InsertEnter"
      },
      {"BurntSushi/ripgrep"},
      {"nvim-telescope/telescope-fzf-native.nvim"},
-     {"rafi/awesome-vim-colorschemes"} 
+     {"rafi/awesome-vim-colorschemes"}
 }
 
 -- autocommands (https://neovim.io/doc/user/autocmd.html)
