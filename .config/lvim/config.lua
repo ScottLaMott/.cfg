@@ -3,22 +3,10 @@
 -- slm-industries settings
 
 -- prompt on top
-require("telescope").setup{
-  defaults = {
-    layout_config={prompt_position="top"}
-  }
-}
+--   require("telescope").setup{ defaults = { layout_config={prompt_position="top"} } }
+-- search hidden folder
+require("telescope").setup { pickers = { find_files = { hidden = true } } }
 
--- search idden folder
-require("telescope").setup {
-  pickers = {
-    find_files = {
-      hidden = true
-    }
-  }
-}
-
-lvim.builtin.telescope.defaults.layout_config.prompt_position="top"
 lvim.builtin.telescope.defaults.sorting_strategy = "ascending"
 -- slm-industries end
 
