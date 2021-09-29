@@ -9,8 +9,20 @@ export ZSH="/home/christoph/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 ZSH_THEME="junkfood"
+ZSH_THEME="steeef"
+ZSH_THEME="fox"
+ZSH_THEME="kolo"
+ZSH_THEME="sorin"
+ZSH_THEME="clean"
+ZSH_THEME="arrow"
+ZSH_THEME="frontcube"
+ZSH_THEME="funky"
+ZSH_THEME="fox"
+ZSH_THEME="terminalparty"
+ZSH_THEME="wezm"
+ZSH_THEME="fishy"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -22,4 +34,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 ### slm
-source ./.zshrc.pre-oh-my-zsh
+source ~/.zshrc.pre-oh-my-zsh

@@ -14,7 +14,7 @@ POWERLEVEL10K_LEFT_PROMPT_ELEMENTS=(user host dir vcs)
 POWERLEVEL10K_MODE='nerdfont-complete'
 POWERLEVEL10K_COLOR_SCHEME='light'
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
