@@ -8,7 +8,6 @@ enterprise
 
 stella
 -
-
 - telescope
   - sortierreihenfolge
   - devicons
@@ -20,9 +19,12 @@ stella
 
 becks
 -
-
 - startify session file gitten
 - fonts verbessern
+
+lvim
+-
+- MarkdownPreview plugin suchen und installieren
 
 erledigt
 -
