@@ -1,15 +1,12 @@
 -- slm-industries telescope config
--- layout
-require("telescope").setup { defaults = { layout_config = { prompt_position = "top" } } }
--- require("telescope").setup{ defaults = { layout_config = { prompt_position = "bottom" } } }
--- sorting 
-require("telescope").setup { defaults = { sorting_strategy = { "ascending"  } } }
--- require("telescope").setup{ defaults = { sorting_strategy = { "descending"  } } }
+require("telescope").setup { defaults = { layout_config = { prompt_position = "top" } } }        -- layout
+require("telescope").setup { defaults = { sorting_strategy = { "ascending"  } } }                -- sorting 
 
--- search hidden folder
-require("telescope").setup { pickers = { find_files = { hidden = true } } }
+require("telescope").setup { pickers = { find_files = { hidden = true } } }                      -- search hidden folder
 
---
+-- require("telescope").setup{ defaults = { layout_config = { prompt_position = "bottom" } } }   -- layout
+-- require("telescope").setup{ defaults = { sorting_strategy = { "descending"  } } }             -- sorting 
+
 -- end slm-industries telescope config
 
 -- general
