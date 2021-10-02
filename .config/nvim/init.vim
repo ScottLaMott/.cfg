@@ -35,7 +35,8 @@ set background=dark
 colorscheme focuspoint
 "colorscheme OceanicNextLight
 "colorscheme onehalflight
-colorscheme onedark
+"colorscheme onedark
+colorscheme PaperColor
 
 runtime! debian.vim
 
