@@ -1,8 +1,8 @@
 -- slm-industries telescope config
+require("telescope").setup { pickers = { find_files = { hidden = true } } }                      -- search hidden folder
+
 require("telescope").setup { defaults = { layout_config = { prompt_position = "top" } } }        -- layout
 require("telescope").setup { defaults = { sorting_strategy = { "ascending"  } } }                -- sorting 
-
-require("telescope").setup { pickers = { find_files = { hidden = true } } }                      -- search hidden folder
 
 -- require("telescope").setup{ defaults = { layout_config = { prompt_position = "bottom" } } }   -- layout
 -- require("telescope").setup{ defaults = { sorting_strategy = { "descending"  } } }             -- sorting 
@@ -105,10 +105,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- Additional Plugins
 lvim.plugins = {
      {"folke/tokyonight.nvim"},
-     {"ray-x/lsp_signature.nvim",
-         config = function() require"lsp_signature".on_attach() end,
-         event = "InsertEnter"
-     },
+--     {"ray-x/lsp_signature.nvim", config = function() require"lsp_signature".on_attach() end, event = "InsertEnter" },
      {"BurntSushi/ripgrep"},
      {"nvim-telescope/telescope-fzf-native.nvim"},
      {"rafi/awesome-vim-colorschemes"}
@@ -118,3 +115,4 @@ lvim.plugins = {
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
 -- }
+
