@@ -2,7 +2,7 @@
 require("telescope").setup { defaults = { layout_config = { prompt_position = "top" } } }        -- layout   top/bottom
 require("telescope").setup { defaults = { sorting_strategy = { "ascending"  } } }                -- sorting  ascending/descending
 
-require("telescope").setup { pickers = { find_files = { hidden = true } } }                      -- search hidden folder
+require("telescope").setup { pickers = { find_files = { hidden = true } } }                      -- search hidden folder true/false
 -- end slm-industries telescope config
 
 -- general
@@ -114,3 +114,34 @@ lvim.plugins = {
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
 -- }
+
+require'nvim-tree'.setup {
+      disable_netrw       = true,
+      hijack_netrw        = true,
+      open_on_setup       = false,
+      ignore_ft_on_setup  = {},
+      update_to_buf_dir   = true,
+      auto_close          = false,
+      open_on_tab         = false,
+      hijack_cursor       = false,
+      update_cwd          = false,
+      lsp_diagnostics     = false,
+      update_focused_file = {
+        enable      = false,
+        update_cwd  = false,
+        ignore_list = {}
+      },
+      system_open = {
+        cmd  = nil,
+        args = {}
+      },
+      view = {
+        width = 30,
+        side = 'left',
+        auto_resize = false,
+        mappings = {
+          custom_only = false,
+          list = {}
+        }
+      }
+    }
