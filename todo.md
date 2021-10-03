@@ -20,7 +20,6 @@ stella
 becks
 -
 - startify session file gitten
-- fonts verbessern
 
 lvim
 -
@@ -36,6 +35,8 @@ erledigt
   dotbare push git@github.com:ScottLaMott/.cfg.git
   ```
 
+- fonts verbessern
+    fonts installieren mit getnf, in github, verlinken
 - fd in telescope auf versteckte (hidden) dateien
   - siehe .config/nvim/general/telescope.lua
 - appimage 0.6.0 zum download suchen
