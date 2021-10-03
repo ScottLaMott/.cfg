@@ -24,6 +24,7 @@ becks
 lvim
 -
 - MarkdownPreview plugin suchen und installieren
+- Fehlermeldung nvimtree rot
 
 erledigt
 -
