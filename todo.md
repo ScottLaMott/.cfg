@@ -14,7 +14,7 @@ stella
   - checkhealth telescope failed
 - i3gaps suchen
 - i3blocks kleine buchstaben ins menuleiste
-- f5 f6 für helligkeit
+- f5 f6 für helligkeit im batteriebetrieb
 - dunkler window-rahmen
 
 becks
@@ -25,6 +25,7 @@ becks
 lvim
 -
 - MarkdownPreview plugin suchen und installieren
+- bei Aufruf lvim auch neovim init.vim laden
 - Fehlermeldung nvimtree rot
 
 erledigt
