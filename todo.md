@@ -13,7 +13,6 @@ stella
   - devicons
   - checkhealth telescope failed
 - i3gaps suchen
-- i3blocks kleine buchstaben ins menuleiste
 - f5 f6 für helligkeit im batteriebetrieb
 - dunkler window-rahmen
 
@@ -42,6 +41,8 @@ erledigt
 - appimage 0.6.0 zum download suchen
   -  https://github.com/neovim/neovim/releases/tag/nightly
 - i3 background, wallpaper in _~/ws/wallpapers_
+- i3blocks kleine buchstaben ins menuleiste
+  - in /usr/share/i3blocks/bandwidth geändert
 - docker installation prüfen
   - permission problem auf socket, hat sich gelöst. vielleicht user in docker-group
   - Installation Mint https://linuxhint.com/install_docker_linux_mint/
