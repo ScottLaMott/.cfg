@@ -187,8 +187,8 @@ bindsym $mod+z exec i3lock
 
 # set background
 #exec_always --no-startup-id feh --bg-scale ~/ws/enterprise/pictures/wallpapers/enterprise.jpg # *****
-exec_always --no-startup-id feh --bg-scale ~/ws/enterprise/pictures/mix/ncc-1701.jpg
-#exec_always --no-startup-id feh --bg-scale  ~/ws/wallpapers/dt/0105.jpg     # *****
+#exec_always --no-startup-id feh --bg-scale ~/ws/enterprise/pictures/mix/ncc-1701.jpg
+exec_always --no-startup-id feh --bg-scale  ~/ws/wallpapers/dt/0105.jpg     # *****
 #
 # i3-gaps
 #
