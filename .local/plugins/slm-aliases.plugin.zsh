@@ -43,6 +43,9 @@ alias dotbare='$HOME/.dotbare/dotbare'
 # silversearcher-ag
 alias fd='fdfind --hidden'
 
+# silversearcher-ag
+alias dg='dotbare'
+
 
 # git, falsch neu ergooglen
 #alias gitlog='log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit h
