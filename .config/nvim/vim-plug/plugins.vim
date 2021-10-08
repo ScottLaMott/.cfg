@@ -50,10 +50,12 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-"  Plug 'kyazdani42/nvim-web-devicons'
+  Plug 'kyazdani42/nvim-web-devicons'
+
+  """ floaterm -------------------------------------------------------------------------
+  Plug 'voldikss/vim-floaterm'
 
   """ verschiedene -------------------------------------------------------------------------
-  Plug 'voldikss/vim-floaterm'
   Plug 'https://github.com/junegunn/goyo.vim'
   Plug 'ryanoasis/vim-devicons'
 

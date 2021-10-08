@@ -43,8 +43,11 @@ alias dotbare='$HOME/.dotbare/dotbare'
 # silversearcher-ag
 alias fd='fdfind --hidden'
 
-# silversearcher-ag
+# dotbare
 alias dg='dotbare'
+
+# floaterm
+#alias f='floaterm' ???
 
 
 # git, falsch neu ergooglen
