@@ -53,6 +53,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 "  Plug 'kyazdani42/nvim-web-devicons'
 
   """ verschiedene -------------------------------------------------------------------------
+  Plug 'voldikss/vim-floaterm'
   Plug 'https://github.com/junegunn/goyo.vim'
   Plug 'ryanoasis/vim-devicons'
 
