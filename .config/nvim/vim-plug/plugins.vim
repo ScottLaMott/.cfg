@@ -50,12 +50,15 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-"  Plug 'kyazdani42/nvim-web-devicons'
   "Plug ''sharkdp/fd' ???? sollte laut checkhealth telsscope installiert
   "werden
+
+  """ floaterm -------------------------------------------------------------------------
+  Plug 'voldikss/vim-floaterm'
 
   """ verschiedene -------------------------------------------------------------------------
   Plug 'https://github.com/junegunn/goyo.vim'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
