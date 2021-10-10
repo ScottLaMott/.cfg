@@ -2,9 +2,12 @@ TODO-List
 =
 enterprise
 -
-
 - slm-industries.virt als domainname ?
 - ansible-playbooks für docker-container erstellen
+
+allgemein
+-
+- rofi installieren und konfigurieren
 
 stella
 -
@@ -19,6 +22,10 @@ stella
 becks
 -
 - startify session file gitten
+
+nvim
+-
+- Floaterm plugin konfigurieren
 
 lvim
 -
