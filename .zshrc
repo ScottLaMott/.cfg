@@ -35,3 +35,11 @@ source $ZSH/oh-my-zsh.sh
 
 ### slm
 source ~/.zshrc.pre-oh-my-zsh
+
+# set window-title for rofi
+case $TERM in
+    xterm*)
+        precmd () {print -Pn "\e]0;%n@%m: %~\a"}
+        ;;
+esac
+
