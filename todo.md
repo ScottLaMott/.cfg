@@ -17,7 +17,7 @@ stella
   - devicons
   - checkhealth telescope failed
 - i3gaps suchen
-- f5 f6 für helligkeit im batteriebetrieb
+- f5 f6 für helligkeit im batteriebetrieb (command brightnessctl)
 - dunkler window-rahmen
 
 becks
