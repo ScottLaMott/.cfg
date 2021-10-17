@@ -16,13 +16,13 @@ export ZSH="/home/christoph/.oh-my-zsh"
 #ZSH_THEME="kolo"
 #ZSH_THEME="sorin"
 #ZSH_THEME="clean"
-#ZSH_THEME="arrow"
+ZSH_THEME="arrow"
 #ZSH_THEME="frontcube"
 #ZSH_THEME="funky"
 #ZSH_THEME="fox"
 #ZSH_THEME="terminalparty"
 #ZSH_THEME="wezm"
-ZSH_THEME="fishy"
+#ZSH_THEME="fishy"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
