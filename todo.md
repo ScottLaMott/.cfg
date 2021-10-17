@@ -11,6 +11,7 @@ allgemein
 
 stella
 -
+- bessere fond
 - telescope
   - sortierreihenfolge
   - devicons
