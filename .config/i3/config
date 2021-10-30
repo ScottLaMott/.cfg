@@ -111,8 +111,8 @@ set $ws5 "5:"
 set $ws6 "6:"
 set $ws7 "7:"
 set $ws8 "8:mixxx"
-set $ws9 "9:firefox"
-set $ws10 "10:thunderbird"
+set $ws9 "9:thunderbird"
+set $ws10 "10:firefox"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
