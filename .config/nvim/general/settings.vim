@@ -47,7 +47,8 @@ set title                               " slm / show filename in title
 
 """ slm
 let netrw_banner=1
-let g:netrw_liststyle=2   " ausgabeformat im filebrowser
+"let g:netrw_liststyle=2   " ausgabeformat im filebrowser
+let g:netrw_liststyle=0   " one file per line
 
 set guicursor=
 set termguicolors
