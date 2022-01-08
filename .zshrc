@@ -7,8 +7,9 @@ export ZSH="/home/christoph/.oh-my-zsh"
 # Set name of the theme to load
 # run: echo $RANDOM_THEME to see which theme is loaded
 #
-#ZSH_THEME="steeef"
-ZSH_THEME="arrow"
+ZSH_THEME="random"
+ZSH_THEME="sunrise"
+#ZSH_THEME="arrow"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
