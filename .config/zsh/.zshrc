@@ -88,15 +88,15 @@ xset r rate 210 40
 
 # Environment variables set everywhere
 export EDITOR="nvim"
-export TERMINAL="alacritty"
-export BROWSER="brave"
+#export TERMINAL="alacritty"
+#export BROWSER="brave"
 
 # For QT Themes
-export QT_QPA_PLATFORMTHEME=qt5ct
+# export QT_QPA_PLATFORMTHEME=qt5ct
 
 # remap caps to escape
-# setxkbmap -option caps:escape
-# swap escape and caps
-# setxkbmap -option caps:swapescape
+setxkbmap -option caps:escape
+swap escape and caps
+setxkbmap -option caps:swapescape
 
 
