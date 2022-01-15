@@ -5,6 +5,12 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
+	[[                                                 ]],
+	[[                                                 ]],
+	[[                                                 ]],
+	[[                                                 ]],
+	[[                                                 ]],
+	[[                                                 ]],
 	[[                               __                ]],
 	[[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
 	[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
@@ -28,7 +34,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "chrisatmachine.com"
+	return "powered bye slm.com"
 end
 
 dashboard.section.footer.val = footer()
