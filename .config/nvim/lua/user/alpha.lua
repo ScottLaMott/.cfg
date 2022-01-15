@@ -16,6 +16,8 @@ dashboard.section.header.val = {
   [[\__ \ | | | | | | | | |_____| | | | | | | | (_| | | |_| | \__ \ | |_  | |    | | |  __/ \__ \]],
   [[|___/ |_| |_| |_| |_|         |_| |_| |_|  \__,_|  \__,_| |___/  \__| |_|    |_|  \___| |___/]],
   [[                                                                                             ]],
+  [[                                                                                             ]],
+  [[                                                                                             ]],
 }
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
@@ -33,7 +35,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "slm.com"
+	return "powered bye slm.com"
 end
 
 dashboard.section.footer.val = footer()
