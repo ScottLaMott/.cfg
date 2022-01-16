@@ -39,12 +39,10 @@ alias tg='python2 ~/ws/git/t/t.py --task-dir ~/tasks --list tasks-godwin'
 
 # dotbare
 alias dotbare='$HOME/.dotbare/dotbare'
+alias dots='dotbare'
 
 # silversearcher-ag
 alias fd='fdfind --hidden'
-
-# dotbare
-alias dg='dotbare'
 
 # floaterm
 #alias f='floaterm' ???
