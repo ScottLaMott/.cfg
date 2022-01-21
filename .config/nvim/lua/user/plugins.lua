@@ -62,6 +62,7 @@ return packer.startup(function(use)
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
+  -- use "morhetz/gruvbox"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -97,9 +98,10 @@ return packer.startup(function(use)
   -- slm
   -- use "iamcco/markdown-preview.nvim"
   use {
-    'iamcco/markdown-preview.nvim',
-    run = function() vim.fn['mkdp#util#install']() end,
-    ft = {'markdown'}
+    "iamcco/markdown-preview.nvim",
+    -- run = function() vim.fn["mkdp#util#install"]() end,
+    run = function() vim.fn["cd app & yarn install"]() end,
+    ft = {"markdown"}
   }
 
   -- Automatically set up your configuration after cloning packer.nvim
